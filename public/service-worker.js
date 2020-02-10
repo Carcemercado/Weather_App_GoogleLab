@@ -25,6 +25,7 @@ const FILES_TO_CACHE = [
   'offline.html',
 ];
 
+
 self.addEventListener('install', (evt) => {
   console.log('[ServiceWorker] Install');
   // CODELAB: Precache static resources here.
